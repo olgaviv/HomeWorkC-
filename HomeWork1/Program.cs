@@ -59,3 +59,16 @@ Console.WriteLine ( "число " + n1  + " является нечетным ")
 
 */
 
+// Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+Console.Write ("Input a positive integer number: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int current = 1;
+
+while(current<= n)
+{
+    if (current%2==0)
+        Console.Write(current + " ");
+    current++;
+}
+
